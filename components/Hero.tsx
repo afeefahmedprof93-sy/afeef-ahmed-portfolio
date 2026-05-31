@@ -14,7 +14,7 @@ const heroStats = [
 ];
 
 const qaSignals = [
-  { metric: "2023+", label: "Professional QA experience" },
+  { metric: "QA since 2023", label: "Professional software testing experience" },
   { metric: "Full-stack QA", label: "Manual, automation, API, performance" },
   { metric: "Release-ready", label: "Regression, reports, defect evidence" },
 ];
