@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #030712;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(90deg, rgba(168, 85, 247, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(34, 211, 238, 0.04) 1px, transparent 1px),
+    #030712;
+  background-size: 56px 56px;
+  color: #f8fafc;
+}
+
+::selection {
+  background: #a855f7;
+  color: #ffffff;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-3xl font-bold tracking-normal text-white sm:text-4xl lg:text-5xl;
+}
+
+.section-kicker {
+  @apply text-sm font-semibold uppercase tracking-[0.16em] text-accent;
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent;
+}
+
+section {
+  scroll-margin-top: 5rem;
+}
+
+.soft-enter {
+  animation: soft-enter 700ms ease both;
+}
+
+.soft-enter-delay {
+  animation: soft-enter 850ms ease 120ms both;
+}
+
+@keyframes soft-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .soft-enter,
+  .soft-enter-delay {
+    animation: none;
+  }
+}
