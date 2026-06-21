@@ -8,10 +8,12 @@ export function About() {
           <p className="mt-6 text-lg leading-8 text-slate-300">
             I am a detail-oriented Software QA Engineer who cares about
             building reliable software through structured testing, strong defect
-            reporting, and maintainable automation. I am comfortable working
-            remotely with distributed teams, turning requirements into practical
-            test coverage, and supporting releases with clear communication and
-            evidence-based quality checks.
+            reporting, and maintainable automation. I use AI-driven QA workflows
+            to support requirement analysis, checklist and test-case preparation,
+            regression planning, defect analysis, and documentation improvement.
+            I am comfortable working remotely with distributed teams and
+            supporting releases with clear communication and evidence-based
+            quality checks.
           </p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import { AIWorkflow } from "@/components/AIWorkflow";
 import { Contact } from "@/components/Contact";
 import { Experience } from "@/components/Experience";
 import { Footer } from "@/components/Footer";
@@ -15,9 +16,10 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Projects />
-        <Skills />
         <Experience />
+        <Skills />
+        <AIWorkflow />
+        <Projects />
         <WorkSamples />
         <Contact />
       </main>

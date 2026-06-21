@@ -55,6 +55,9 @@ const skillGroups: SkillGroup[] = [
       "VS Code",
       "IntelliJ IDEA",
       "Chrome DevTools",
+      "MCP",
+      "Codex",
+      "Claude Code",
     ],
   },
 ];

@@ -1,0 +1,401 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Primary navigation" [ref=e3]:
+      - link "Afeef Ahmed Jarif" [ref=e4] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: "#home"
+        - link "About" [ref=e7] [cursor=pointer]:
+          - /url: "#about"
+        - link "Projects" [ref=e8] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Skills" [ref=e9] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Experience" [ref=e10] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Samples" [ref=e11] [cursor=pointer]:
+          - /url: "#work-samples"
+        - link "Contact" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Hire Me" [ref=e13] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Available for QA automation opportunities
+        - generic [ref=e19]: Remote-ready • AI-driven QA • Automation • API quality
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Software QA Engineer
+          - heading "Afeef Ahmed Jarif" [level=1] [ref=e23]
+          - paragraph [ref=e24]: I combine manual testing, automation, API and performance testing with AI-driven QA workflows to strengthen analysis, test coverage, defect investigation, and release confidence.
+          - generic [ref=e25]:
+            - link "Download CV" [ref=e26] [cursor=pointer]:
+              - /url: /Afeef_Ahmed_CV.pdf
+            - link "View GitHub" [ref=e27] [cursor=pointer]:
+              - /url: https://github.com/afeefahmedprof93-sy
+            - link "Contact Me" [ref=e28] [cursor=pointer]:
+              - /url: "#contact"
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: QA since 2023
+              - text: Professional software testing experience
+            - generic [ref=e32]:
+              - generic [ref=e33]: AI-driven QA
+              - text: Analysis, planning, defects, documentation
+            - generic [ref=e34]:
+              - generic [ref=e35]: Release-ready
+              - text: Regression, reports, defect evidence
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - paragraph [ref=e39]: QA Delivery Stack
+              - paragraph [ref=e40]: Practical coverage from QA fundamentals and AI-assisted planning to automation, backend validation, performance checks, and release evidence.
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - paragraph [ref=e43]: QA Fundamentals
+                - paragraph [ref=e44]: STLC, risk-based planning, test cases, bug reporting
+              - generic [ref=e45]:
+                - paragraph [ref=e46]: Automation
+                - paragraph [ref=e47]: Playwright, Selenium, Appium, POM
+              - generic [ref=e48]:
+                - paragraph [ref=e49]: API & Performance
+                - paragraph [ref=e50]: Postman, REST validation, SQL checks, k6 scenarios
+              - generic [ref=e51]:
+                - paragraph [ref=e52]: Delivery & Reports
+                - paragraph [ref=e53]: GitHub Actions, HTML, Allure
+        - generic [ref=e54]:
+          - img "Afeef Ahmed Jarif" [ref=e57]
+          - generic [ref=e58]:
+            - generic "Playwright" [ref=e59]:
+              - img "Playwright" [ref=e60]
+            - generic "Selenium" [ref=e61]:
+              - img "Selenium" [ref=e62]
+            - generic "TypeScript" [ref=e63]:
+              - img "TypeScript" [ref=e64]
+            - generic "Java" [ref=e65]:
+              - img "Java" [ref=e66]
+            - generic "TestNG" [ref=e67]:
+              - img "TestNG" [ref=e68]
+            - generic "GitHub Actions" [ref=e69]:
+              - img "GitHub Actions" [ref=e70]
+            - generic "k6" [ref=e71]:
+              - img "k6" [ref=e72]
+            - generic "Allure" [ref=e73]:
+              - img "Allure" [ref=e74]
+            - generic "Postman" [ref=e75]:
+              - img "Postman" [ref=e76]
+            - generic "Git" [ref=e77]:
+              - img "Git" [ref=e78]
+    - generic [ref=e81]:
+      - paragraph [ref=e82]: About
+      - heading "Quality-focused testing mindset" [level=2] [ref=e83]
+      - paragraph [ref=e84]: I am a detail-oriented Software QA Engineer who cares about building reliable software through structured testing, strong defect reporting, and maintainable automation. I use AI-driven QA workflows to support requirement analysis, checklist and test-case preparation, regression planning, defect analysis, and documentation improvement. I am comfortable working remotely with distributed teams and supporting releases with clear communication and evidence-based quality checks.
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: Projects
+          - heading "Real QA frameworks from GitHub" [level=2] [ref=e90]
+        - link "View all repositories" [ref=e91] [cursor=pointer]:
+          - /url: https://github.com/afeefahmedprof93-sy?tab=repositories
+      - generic [ref=e92]:
+        - article [ref=e93]:
+          - generic [ref=e95]:
+            - heading "Playwright UI Automation Lab" [level=3] [ref=e104]
+            - paragraph [ref=e105]: A professional end-to-end automation framework for automationexercise.com covering all 26 official test cases with clean architecture.
+            - generic [ref=e106]:
+              - generic [ref=e107]: Playwright
+              - generic [ref=e108]: TypeScript
+              - generic [ref=e109]: POM
+              - generic [ref=e110]: GitHub Actions
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - generic [ref=e114]: All 26 official test cases
+              - listitem [ref=e115]:
+                - generic [ref=e117]: Cross-browser and device execution
+              - listitem [ref=e118]:
+                - generic [ref=e120]: Automatic retries
+              - listitem [ref=e121]:
+                - generic [ref=e123]: CI/CD workflow support
+            - link "View on GitHub" [ref=e125] [cursor=pointer]:
+              - /url: https://github.com/afeefahmedprof93-sy/playwright-ui-automation-lab
+        - article [ref=e126]:
+          - generic [ref=e128]:
+            - heading "Playwright API Automation Framework" [level=3] [ref=e137]
+            - paragraph [ref=e138]: A TypeScript API automation framework validating ReqRes flows across health checks, auth, pagination, negative tests, and CRUD-style operations.
+            - generic [ref=e139]:
+              - generic [ref=e140]: Playwright API
+              - generic [ref=e141]: TypeScript
+              - generic [ref=e142]: REST
+              - generic [ref=e143]: HTML Reports
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - generic [ref=e147]: Reusable request layers
+              - listitem [ref=e148]:
+                - generic [ref=e150]: Auth and negative scenarios
+              - listitem [ref=e151]:
+                - generic [ref=e153]: Readable assertions
+              - listitem [ref=e154]:
+                - generic [ref=e156]: Rich HTML reporting
+            - link "View on GitHub" [ref=e158] [cursor=pointer]:
+              - /url: https://github.com/afeefahmedprof93-sy/playwright-api-automation-framework
+        - article [ref=e159]:
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e165]: Se
+              - heading "Selenium UI Automation Framework" [level=3] [ref=e166]
+            - paragraph [ref=e167]: A production-ready Selenium and TestNG framework for OrangeHRM with Page Object Model, parallel execution, Allure reports, and Log4j2 logging.
+            - generic [ref=e168]:
+              - generic [ref=e169]: Selenium
+              - generic [ref=e170]: Java
+              - generic [ref=e171]: TestNG
+              - generic [ref=e172]: Allure
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - generic [ref=e176]: ThreadLocal WebDriver
+              - listitem [ref=e177]:
+                - generic [ref=e179]: Parallel execution
+              - listitem [ref=e180]:
+                - generic [ref=e182]: Allure reporting
+              - listitem [ref=e183]:
+                - generic [ref=e185]: Clean POM structure
+            - link "View on GitHub" [ref=e187] [cursor=pointer]:
+              - /url: https://github.com/afeefahmedprof93-sy/selenium-ui-automation-framework
+        - article [ref=e188]:
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - generic [ref=e193]: A
+              - heading "Appium TypeScript Mobile Automation Framework" [level=3] [ref=e194]
+            - paragraph [ref=e195]: An Android automation framework built with Appium 2, WebdriverIO, TypeScript, Mocha, and Allure reporting against the WebdriverIO native demo app.
+            - generic [ref=e196]:
+              - generic [ref=e197]: Appium 2
+              - generic [ref=e198]: WebdriverIO
+              - generic [ref=e199]: TypeScript
+              - generic [ref=e200]: Mocha
+            - list [ref=e201]:
+              - listitem [ref=e202]:
+                - generic [ref=e204]: Android workflow coverage
+              - listitem [ref=e205]:
+                - generic [ref=e207]: Allure report integration
+              - listitem [ref=e208]:
+                - generic [ref=e210]: Demo app target
+              - listitem [ref=e211]:
+                - generic [ref=e213]: Clone-and-run structure
+            - link "View on GitHub" [ref=e215] [cursor=pointer]:
+              - /url: https://github.com/afeefahmedprof93-sy/appium-typescript-mobile-automation-framework
+        - article [ref=e216]:
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e223]: k6
+              - heading "k6 BlazeDemo Load Testing" [level=3] [ref=e224]
+            - paragraph [ref=e225]: A modular k6 load testing framework for BlazeDemo showing data-driven tests, custom metrics, smoke/load/stress scenarios, and HTML reporting.
+            - generic [ref=e226]:
+              - generic [ref=e227]: k6
+              - generic [ref=e228]: JavaScript
+              - generic [ref=e229]: Performance
+              - generic [ref=e230]: HTML Reports
+            - list [ref=e231]:
+              - listitem [ref=e232]:
+                - generic [ref=e234]: Smoke, load, and stress tests
+              - listitem [ref=e235]:
+                - generic [ref=e237]: Custom metrics
+              - listitem [ref=e238]:
+                - generic [ref=e240]: Data-driven scripts
+              - listitem [ref=e241]:
+                - generic [ref=e243]: Report generation
+            - link "View on GitHub" [ref=e245] [cursor=pointer]:
+              - /url: https://github.com/afeefahmedprof93-sy/K6-blazedemo-load-testing
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - paragraph [ref=e249]: Skills
+        - heading "Testing and automation toolkit" [level=2] [ref=e250]
+      - generic [ref=e251]:
+        - article [ref=e252]:
+          - heading "Testing" [level=3] [ref=e253]
+          - generic [ref=e508]:
+            - generic [ref=e509]: Manual Testing
+            - generic [ref=e510]: Functional Testing
+            - generic [ref=e511]: Regression Testing
+            - generic [ref=e512]: Smoke Testing
+            - generic [ref=e513]: Sanity Testing
+            - generic [ref=e514]: Exploratory Testing
+            - generic [ref=e515]: Test Case Design
+            - generic [ref=e516]: Bug Reporting
+        - article [ref=e263]:
+          - heading "Automation" [level=3] [ref=e264]
+          - generic [ref=e517]:
+            - generic [ref=e518]: Playwright
+            - generic [ref=e519]: TypeScript
+            - generic [ref=e520]: Selenium
+            - generic [ref=e521]: Java
+            - generic [ref=e522]: TestNG
+            - generic [ref=e523]: Page Object Model
+            - generic [ref=e524]: Fixtures
+            - generic [ref=e525]: Parallel Execution
+            - generic [ref=e526]: Retry Handling
+        - article [ref=e275]:
+          - heading "API & Database" [level=3] [ref=e276]
+          - generic [ref=e527]:
+            - generic [ref=e528]: Postman
+            - generic [ref=e529]: REST API Testing
+            - generic [ref=e530]: JSON Validation
+            - generic [ref=e531]: Schema Validation
+            - generic [ref=e532]: SQL
+        - article [ref=e283]:
+          - heading "Performance & CI/CD" [level=3] [ref=e284]
+          - generic [ref=e533]:
+            - generic [ref=e534]: k6
+            - generic [ref=e535]: GitHub Actions
+            - generic [ref=e536]: CI/CD
+            - generic [ref=e537]: HTML Reports
+            - generic [ref=e538]: Allure Reports
+        - article [ref=e539]:
+          - heading "AI-Driven QA Workflow" [level=3] [ref=e540]
+          - paragraph [ref=e541]: Using AI-assisted workflows to improve QA preparation, analysis, and reusable coverage.
+          - generic [ref=e542]:
+            - generic [ref=e543]: Requirement Analysis
+            - generic [ref=e545]: Checklist Preparation
+            - generic [ref=e547]: Test Case Preparation
+            - generic [ref=e549]: Regression Planning
+            - generic [ref=e551]: Defect Analysis
+            - generic [ref=e553]: Documentation Improvement
+        - article [ref=e303]:
+          - heading "Tools" [level=3] [ref=e304]
+          - generic [ref=e555]:
+            - generic [ref=e556]: Git
+            - generic [ref=e557]: GitHub
+            - generic [ref=e558]: SourceTree
+            - generic [ref=e559]: Jira
+            - generic [ref=e560]: VS Code
+            - generic [ref=e561]: IntelliJ IDEA
+            - generic [ref=e562]: Chrome DevTools
+            - generic [ref=e563]: MCP
+            - generic [ref=e564]: Codex
+            - generic [ref=e565]: Claude Code
+    - generic [ref=e315]:
+      - generic [ref=e316]:
+        - paragraph [ref=e317]: Experience
+        - heading "Hands-on QA engineering work" [level=2] [ref=e318]
+        - paragraph [ref=e319]: Professional QA experience from 2023 to present across manual testing, automation testing, API testing, performance testing, AI-driven QA workflows, defect reporting, and release readiness in Agile/Scrum teams.
+      - generic [ref=e320]:
+        - article [ref=e321]:
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - heading "Senior Software QA Engineer" [level=3] [ref=e324]
+              - paragraph [ref=e325]: Enosis Solutions
+            - generic [ref=e326]: 2025 - Present · Dhaka, Bangladesh
+          - list [ref=e327]:
+            - listitem [ref=e328]:
+              - generic [ref=e330]: Lead manual, API, performance, and UI automation testing for an event ticketing and venue-management platform across web, backend, and release workflows.
+            - listitem [ref=e331]:
+              - generic [ref=e333]: Use AI-driven QA workflows to support requirement analysis, checklist and test-case preparation, regression planning, defect analysis, documentation improvement, and reusable automation coverage.
+            - listitem [ref=e334]:
+              - generic [ref=e336]: Design and maintain Playwright with TypeScript end-to-end suites using reusable fixtures, utilities, and scalable test architecture.
+            - listitem [ref=e337]:
+              - generic [ref=e339]: Plan and execute k6 performance tests to evaluate response time, throughput, stability, and behavior under expected and high-load conditions.
+            - listitem [ref=e340]:
+              - generic [ref=e342]: Perform REST API testing with Postman, validating backend data, business rules, integrations, and error handling.
+            - listitem [ref=e343]:
+              - generic [ref=e345]: Document clear defects with reproduction steps, expected and actual results, evidence, severity, and priority.
+        - article [ref=e346]:
+          - generic [ref=e347]:
+            - generic [ref=e348]:
+              - heading "Software QA Engineer" [level=3] [ref=e349]
+              - paragraph [ref=e350]: Enosis Solutions
+            - generic [ref=e351]: 2023 - 2025 · Dhaka, Bangladesh
+          - list [ref=e352]:
+            - listitem [ref=e353]:
+              - generic [ref=e355]: Conducted manual testing for web, desktop, and mobile applications throughout the Software Testing Life Cycle.
+            - listitem [ref=e356]:
+              - generic [ref=e358]: Developed Selenium WebDriver automation scripts using Java and TestNG to improve regression efficiency and critical workflow coverage.
+            - listitem [ref=e359]:
+              - generic [ref=e361]: Executed functional, regression, smoke, sanity, and cross-browser testing before production releases.
+            - listitem [ref=e362]:
+              - generic [ref=e364]: Maintained automation code and test assets using Git, GitHub, and Sourcetree for version control and collaboration.
+    - generic [ref=e366]:
+      - generic [ref=e367]:
+        - paragraph [ref=e368]: Work Samples
+        - heading "Documentation and QA evidence" [level=2] [ref=e369]
+      - generic [ref=e370]:
+        - article [ref=e371]:
+          - generic [ref=e376]: High
+          - generic [ref=e380]:
+            - heading "Bug Reporting" [level=3] [ref=e381]
+            - paragraph [ref=e382]: Actionable defect reports with reproduction steps, environment details, severity, and supporting evidence.
+            - link "Open link" [ref=e384] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1zmdz26uf2OlF1LM1_yZxvJtYncHc2-LVUkCczzqQ-60/edit?usp=sharing
+        - article [ref=e385]:
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - generic [ref=e389]: OK
+              - generic [ref=e391]: Core flows
+            - generic [ref=e392]:
+              - generic [ref=e393]: OK
+              - generic [ref=e395]: Edge cases
+            - generic [ref=e396]:
+              - generic [ref=e397]: OK
+              - generic [ref=e399]: UI checks
+            - generic [ref=e400]:
+              - generic [ref=e401]: OK
+              - generic [ref=e403]: Release ready
+          - generic [ref=e404]:
+            - heading "Testing Checklist" [level=3] [ref=e405]
+            - paragraph [ref=e406]: Practical QA checklist coverage for validating core flows, edge cases, UI behavior, and release readiness.
+            - link "Open link" [ref=e408] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/1ZZBYdnko2s9M6G1PXvW5TxUDuN6QY7-O-yGaFEax-e4/edit?usp=sharing
+        - article [ref=e409]:
+          - generic [ref=e412]:
+            - generic [ref=e413]: ID
+            - generic [ref=e414]: Scenario
+            - generic [ref=e415]: Steps
+            - generic [ref=e416]: Status
+          - generic [ref=e438]:
+            - heading "Automation Test Cases" [level=3] [ref=e439]
+            - paragraph [ref=e440]: Structured automation-ready test cases with scenarios, steps, expected results, priorities, and traceability.
+            - link "Open link" [ref=e442] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/15_qCup4MFMqaXHnTooMrmhoJLwci-CsvfAhrNjKyTfE/edit?usp=sharing
+        - article [ref=e443]:
+          - generic [ref=e445]:
+            - generic [ref=e446]: Scope
+            - generic [ref=e449]: Risk
+            - generic [ref=e452]: Timeline
+            - generic [ref=e455]: Exit
+          - generic [ref=e458]:
+            - heading "Test Plan" [level=3] [ref=e459]
+            - paragraph [ref=e460]: Concise test planning documentation covering scope, risks, strategy, schedule, and exit criteria.
+            - link "Open link" [ref=e462] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1xhsvHK9gjpM5Pf-Mzx4yh84A0jOWb1Qo8OYeu7ZyilM/edit?usp=sharing
+    - generic [ref=e466]:
+      - generic [ref=e467]:
+        - paragraph [ref=e468]: Contact
+        - heading "Let's connect" [level=2] [ref=e469]
+        - paragraph [ref=e470]: I am open to QA, automation, and remote-friendly testing roles. Reach out for collaboration, project work, or hiring conversations.
+      - generic [ref=e471]:
+        - link "Email afeefahmedprof93@gmail.com" [ref=e472] [cursor=pointer]:
+          - /url: mailto:afeefahmedprof93@gmail.com
+          - generic [ref=e473]:
+            - img [ref=e475]
+            - generic [ref=e478]:
+              - text: Email
+              - generic [ref=e479]: afeefahmedprof93@gmail.com
+        - link "LinkedIn linkedin.com/in/afeef-ahmed-jarif" [ref=e480] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/afeef-ahmed-jarif/
+          - generic [ref=e481]:
+            - img [ref=e483]
+            - generic [ref=e485]:
+              - text: LinkedIn
+              - generic [ref=e486]: linkedin.com/in/afeef-ahmed-jarif
+        - link "GitHub github.com/afeefahmedprof93-sy" [ref=e487] [cursor=pointer]:
+          - /url: https://github.com/afeefahmedprof93-sy
+          - generic [ref=e488]:
+            - img [ref=e490]
+            - generic [ref=e492]:
+              - text: GitHub
+              - generic [ref=e493]: github.com/afeefahmedprof93-sy
+  - contentinfo [ref=e494]:
+    - generic [ref=e495]:
+      - paragraph [ref=e496]: © 2026 Afeef Ahmed Jarif. All rights reserved.
+      - paragraph [ref=e497]: Software QA Engineer
+  - button "Open Next.js Dev Tools" [ref=e503] [cursor=pointer]:
+    - img [ref=e504]
+  - alert [ref=e507]

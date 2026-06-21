@@ -5,7 +5,8 @@ const experienceItems = [
     period: "2025 - Present",
     location: "Dhaka, Bangladesh",
     highlights: [
-      "Lead manual, automated, API, and performance testing activities for web and mobile applications in Agile/Scrum teams.",
+      "Lead manual, API, performance, and UI automation testing for an event ticketing and venue-management platform across web, backend, and release workflows.",
+      "Use AI-driven QA workflows to support requirement analysis, checklist and test-case preparation, regression planning, defect analysis, documentation improvement, and reusable automation coverage.",
       "Design and maintain Playwright with TypeScript end-to-end suites using reusable fixtures, utilities, and scalable test architecture.",
       "Plan and execute k6 performance tests to evaluate response time, throughput, stability, and behavior under expected and high-load conditions.",
       "Perform REST API testing with Postman, validating backend data, business rules, integrations, and error handling.",
@@ -37,7 +38,8 @@ export function Experience() {
             <p className="mt-5 leading-7 text-slate-300">
               Professional QA experience from 2023 to present across manual
               testing, automation testing, API testing, performance testing,
-              defect reporting, and release readiness in Agile/Scrum teams.
+              AI-driven QA workflows, defect reporting, and release readiness
+              in Agile/Scrum teams.
             </p>
           </div>
           <div className="space-y-5">

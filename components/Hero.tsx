@@ -3,7 +3,7 @@ import Image from "next/image";
 const heroStats = [
   {
     label: "QA Fundamentals",
-    value: "STLC, test planning, test cases, bug reporting",
+    value: "STLC, risk-based planning, test cases, bug reporting",
   },
   { label: "Automation", value: "Playwright, Selenium, Appium, POM" },
   {
@@ -15,7 +15,7 @@ const heroStats = [
 
 const qaSignals = [
   { metric: "QA since 2023", label: "Professional software testing experience" },
-  { metric: "Full-stack QA", label: "Manual, automation, API, performance" },
+  { metric: "AI-driven QA", label: "Analysis, planning, defects, documentation" },
   { metric: "Release-ready", label: "Regression, reports, defect evidence" },
 ];
 
@@ -43,7 +43,7 @@ export function Hero() {
           <span className="inline-flex w-fit items-center rounded-full border border-brand/40 bg-brand/10 px-3 py-1.5 font-semibold text-violet-100 shadow-[0_0_28px_rgba(168,85,247,0.22)]">
             Available for QA automation opportunities
           </span>
-          <span>Remote-ready • Test automation • API quality • CI reporting</span>
+          <span>Remote-ready • AI-driven QA • Automation • API quality</span>
         </div>
       </div>
       <div className="section-shell grid items-start gap-8 pb-16 pt-2 sm:pt-4 md:grid-cols-[1.08fr_0.92fr] md:gap-12 lg:pb-20 lg:pt-10">
@@ -55,9 +55,9 @@ export function Hero() {
             Afeef Ahmed Jarif
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">
-            I specialize in manual testing, automation testing, API testing,
-            regression testing, and building reliable test automation
-            frameworks.
+            I combine manual testing, automation, API and performance testing
+            with AI-driven QA workflows to strengthen analysis, test coverage,
+            defect investigation, and release confidence.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
@@ -102,8 +102,9 @@ export function Hero() {
                   QA Delivery Stack
                 </p>
                 <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
-                  Practical coverage from QA fundamentals to automation,
-                  backend validation, performance checks, and release evidence.
+                  Practical coverage from QA fundamentals and AI-assisted
+                  planning to automation, backend validation, performance
+                  checks, and release evidence.
                 </p>
               </div>
             </div>
