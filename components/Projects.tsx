@@ -5,10 +5,25 @@ type Project = {
   features: string[];
   githubUrl: string;
   accent: string;
-  icon: "playwright" | "selenium" | "appium" | "k6";
+  icon: "playwright" | "selenium" | "appium" | "k6" | "harness";
 };
 
 const projects: Project[] = [
+  {
+    title: "QA Harness",
+    description:
+      "An AI-driven QA workflow project focused on requirement analysis, structured test planning, defect investigation, and reusable automation coverage.",
+    stack: ["AI-Driven QA", "Test Strategy", "Reusable Coverage", "Documentation"],
+    features: [
+      "Product flow analysis",
+      "Reusable test coverage planning",
+      "Defect investigation support",
+      "QA documentation workflow",
+    ],
+    githubUrl: "https://github.com/afeefahmedprof93-sy/QA_harness",
+    accent: "from-sky-500 to-violet-500",
+    icon: "harness",
+  },
   {
     title: "Playwright UI Automation Lab",
     description:
@@ -118,6 +133,17 @@ function ProjectIcon({ type }: { type: Project["icon"] }) {
         aria-hidden="true"
       >
         A
+      </div>
+    );
+  }
+
+  if (type === "harness") {
+    return (
+      <div className="relative flex h-9 w-9 items-center justify-center" aria-hidden="true">
+        <span className="absolute inset-0 rounded-lg border border-sky-300/50 bg-slate-950" />
+        <span className="absolute left-2 top-2 h-5 w-5 rounded-md border-2 border-sky-400" />
+        <span className="absolute right-1.5 top-1.5 h-4 w-4 rounded-full border-2 border-violet-400" />
+        <span className="relative mt-1 h-2 w-4 rotate-[-35deg] border-b-2 border-l-2 border-emerald-300" />
       </div>
     );
   }
