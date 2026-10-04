@@ -46,14 +46,14 @@ function ContactIcon({ type }: { type: string }) {
 
 export function Contact() {
   return (
-    <section id="contact" className="bg-slate-950 py-20">
+    <section id="contact" className="bg-white py-20">
       <div className="section-shell">
-        <div className="rounded-lg border border-white/10 bg-slate-900/80 p-6 shadow-soft sm:p-8 lg:p-10">
+        <div className="rounded-lg border border-line bg-white p-6 shadow-soft sm:p-8 lg:p-10">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <div>
               <p className="section-kicker">Contact</p>
               <h2 className="section-title mt-3">Let&apos;s connect</h2>
-              <p className="mt-5 leading-7 text-slate-300">
+              <p className="mt-5 leading-7 text-muted">
                 I am open to QA, automation, and remote-friendly testing roles.
                 Reach out for collaboration, project work, or hiring
                 conversations.
@@ -66,17 +66,17 @@ export function Contact() {
                   href={contact.href}
                   target={contact.label === "Email" ? undefined : "_blank"}
                   rel={contact.label === "Email" ? undefined : "noreferrer"}
-                  className="focus-ring rounded-md border border-white/10 bg-slate-950/60 p-4 transition duration-300 hover:-translate-y-0.5 hover:border-accent/50 hover:bg-slate-900"
+                  className="focus-ring rounded-md border border-line bg-surface p-4 transition duration-300 hover:-translate-y-0.5 hover:border-accent/50 hover:bg-white"
                 >
                   <div className="flex items-start gap-3">
-                    <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-accent/25 bg-cyan-300/10 text-accent">
+                    <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-accent/25 bg-surface text-accent">
                       <ContactIcon type={contact.icon} />
                     </span>
                     <span>
-                      <span className="text-sm font-semibold uppercase tracking-[0.14em] text-slate-400">
+                      <span className="text-sm font-semibold uppercase tracking-[0.14em] text-muted">
                         {contact.label}
                       </span>
-                      <span className="mt-1 block break-words text-base font-semibold text-white">
+                      <span className="mt-1 block break-words text-base font-semibold text-ink">
                         {contact.value}
                       </span>
                     </span>

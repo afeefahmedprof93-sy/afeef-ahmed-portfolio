@@ -29,13 +29,13 @@ const experienceItems = [
 
 export function Experience() {
   return (
-    <section id="experience" className="border-b border-white/10 bg-slate-950 py-20">
+    <section id="experience" className="border-b border-line bg-surface py-20">
       <div className="section-shell">
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
             <p className="section-kicker">Experience</p>
             <h2 className="section-title mt-3">Hands-on QA engineering work</h2>
-            <p className="mt-5 leading-7 text-slate-300">
+            <p className="mt-5 leading-7 text-muted">
               Professional QA experience from 2023 to present across manual
               testing, automation testing, API testing, performance testing,
               AI-driven QA workflows, defect reporting, and release readiness
@@ -46,22 +46,22 @@ export function Experience() {
             {experienceItems.map((item) => (
               <article
                 key={`${item.role}-${item.organization}`}
-                className="rounded-lg border border-white/10 bg-slate-900/70 p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-brand/50 hover:shadow-soft"
+                className="rounded-lg border border-line bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-brand/50 hover:shadow-soft"
               >
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                   <div>
-                    <h3 className="text-2xl font-bold text-white">
+                    <h3 className="text-2xl font-bold text-ink">
                       {item.role}
                     </h3>
                     <p className="mt-1 font-semibold text-accent">
                       {item.organization}
                     </p>
                   </div>
-                  <div className="rounded-md border border-white/10 bg-slate-950/70 px-3 py-2 text-sm font-semibold text-slate-300">
+                  <div className="rounded-md border border-line bg-surface px-3 py-2 text-sm font-semibold text-muted">
                     {item.period} · {item.location}
                   </div>
                 </div>
-                <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-300">
+                <ul className="mt-5 space-y-3 text-sm leading-6 text-muted">
                   {item.highlights.map((highlight) => (
                     <li key={highlight} className="flex gap-3">
                       <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />

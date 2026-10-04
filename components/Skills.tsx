@@ -64,7 +64,7 @@ const skillGroups: SkillGroup[] = [
 
 export function Skills() {
   return (
-    <section id="skills" className="border-b border-white/10 bg-slate-950 py-20">
+    <section id="skills" className="border-b border-line bg-white py-20">
       <div className="section-shell">
         <div className="max-w-3xl">
           <p className="section-kicker">Skills</p>
@@ -74,14 +74,14 @@ export function Skills() {
           {skillGroups.map((group) => (
             <article
               key={group.title}
-              className="rounded-lg border border-white/10 bg-slate-900/70 p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-soft"
+              className="rounded-lg border border-line bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-soft"
             >
-              <h3 className="text-xl font-bold text-white">{group.title}</h3>
+              <h3 className="text-xl font-bold text-ink">{group.title}</h3>
               <div className="mt-5 flex flex-wrap gap-2">
                 {group.items.map((skill) => (
                   <span
                     key={skill}
-                    className="rounded-md border border-white/10 bg-slate-950/70 px-3 py-2 text-sm font-medium text-slate-300 transition hover:border-brand/50 hover:text-white"
+                    className="rounded-md border border-line bg-surface px-3 py-2 text-sm font-medium text-muted transition hover:border-brand/50 hover:text-ink"
                   >
                     {skill}
                   </span>

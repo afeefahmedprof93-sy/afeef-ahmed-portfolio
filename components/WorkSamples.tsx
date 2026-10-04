@@ -33,12 +33,12 @@ function ScreenshotPreview({ type }: { type: string }) {
   if (type === "report") {
     return (
       <div className="grid h-full grid-cols-[0.8fr_1.2fr] gap-3 p-4">
-        <div className="rounded-full border-[10px] border-cyan-400/70 border-r-brand/80" />
+        <div className="rounded-full border-[10px] border-brand/30 border-r-brand/80" />
         <div className="space-y-2">
-          <span className="block h-3 rounded bg-cyan-300/60" />
-          <span className="block h-3 rounded bg-violet-300/50" />
-          <span className="block h-3 rounded bg-slate-500/60" />
-          <span className="block h-12 rounded bg-slate-800" />
+          <span className="block h-3 rounded bg-surface" />
+          <span className="block h-3 rounded bg-brand/15" />
+          <span className="block h-3 rounded bg-line" />
+          <span className="block h-12 rounded bg-line" />
         </div>
       </div>
     );
@@ -48,14 +48,14 @@ function ScreenshotPreview({ type }: { type: string }) {
     return (
       <div className="space-y-3 p-4">
         <div className="flex items-center justify-between">
-          <span className="h-3 w-24 rounded bg-rose-400/70" />
-          <span className="rounded bg-rose-500/20 px-2 py-1 text-[10px] font-bold text-rose-200">
+          <span className="h-3 w-24 rounded bg-brand/15" />
+          <span className="rounded bg-brand/15 px-2 py-1 text-[10px] font-bold text-brand">
             High
           </span>
         </div>
-        <span className="block h-3 rounded bg-slate-600" />
-        <span className="block h-3 w-4/5 rounded bg-slate-700" />
-        <span className="block h-16 rounded border border-rose-400/20 bg-rose-500/10" />
+        <span className="block h-3 rounded bg-line" />
+        <span className="block h-3 w-4/5 rounded bg-line" />
+        <span className="block h-16 rounded border border-brand/30 bg-brand/15" />
       </div>
     );
   }
@@ -69,14 +69,14 @@ function ScreenshotPreview({ type }: { type: string }) {
               <span
                 className={`flex size-5 items-center justify-center rounded border text-[10px] font-black ${
                   index < 3
-                    ? "border-emerald-300/40 bg-emerald-400/15 text-emerald-200"
-                    : "border-cyan-300/30 bg-cyan-300/10 text-cyan-100"
+                    ? "border-brand/30 bg-brand/15 text-brand"
+                    : "border-brand/30 bg-surface text-brand"
                 }`}
               >
                 OK
               </span>
-              <span className="h-3 flex-1 rounded bg-slate-700" />
-              <span className="text-[10px] font-semibold text-slate-400">
+              <span className="h-3 flex-1 rounded bg-line" />
+              <span className="text-[10px] font-semibold text-muted">
                 {item}
               </span>
             </div>
@@ -90,10 +90,10 @@ function ScreenshotPreview({ type }: { type: string }) {
     return (
       <div className="grid h-full grid-cols-2 gap-3 p-4">
         {["Scope", "Risk", "Timeline", "Exit"].map((item) => (
-          <div key={item} className="rounded-md border border-cyan-300/15 bg-slate-950/80 p-3">
-            <span className="text-[10px] font-bold text-cyan-100">{item}</span>
-            <span className="mt-3 block h-2 rounded bg-slate-600" />
-            <span className="mt-2 block h-2 w-2/3 rounded bg-slate-700" />
+          <div key={item} className="rounded-md border border-brand/30 bg-surface p-3">
+            <span className="text-[10px] font-bold text-brand">{item}</span>
+            <span className="mt-3 block h-2 rounded bg-line" />
+            <span className="mt-2 block h-2 w-2/3 rounded bg-line" />
           </div>
         ))}
       </div>
@@ -102,9 +102,9 @@ function ScreenshotPreview({ type }: { type: string }) {
 
   return (
     <div className="p-4">
-      <div className="grid grid-cols-4 gap-1 text-[10px] font-semibold text-slate-300">
+      <div className="grid grid-cols-4 gap-1 text-[10px] font-semibold text-muted">
         {["ID", "Scenario", "Steps", "Status"].map((item) => (
-          <span key={item} className="rounded bg-cyan-300/15 px-2 py-1">
+          <span key={item} className="rounded bg-surface px-2 py-1">
             {item}
           </span>
         ))}
@@ -112,10 +112,10 @@ function ScreenshotPreview({ type }: { type: string }) {
       <div className="mt-2 space-y-1">
         {[0, 1, 2, 3].map((item) => (
           <div key={item} className="grid grid-cols-4 gap-1">
-            <span className="h-5 rounded bg-slate-800" />
-            <span className="h-5 rounded bg-slate-700" />
-            <span className="h-5 rounded bg-slate-800" />
-            <span className="h-5 rounded bg-emerald-400/20" />
+            <span className="h-5 rounded bg-line" />
+            <span className="h-5 rounded bg-line" />
+            <span className="h-5 rounded bg-line" />
+            <span className="h-5 rounded bg-brand/15" />
           </div>
         ))}
       </div>
@@ -125,7 +125,7 @@ function ScreenshotPreview({ type }: { type: string }) {
 
 export function WorkSamples() {
   return (
-    <section id="work-samples" className="border-b border-white/10 bg-slate-950 py-20">
+    <section id="work-samples" className="border-b border-line bg-surface py-20">
       <div className="section-shell">
         <div className="max-w-3xl">
           <p className="section-kicker">Work Samples</p>
@@ -135,14 +135,14 @@ export function WorkSamples() {
           {samples.map((sample) => (
             <article
               key={sample.title}
-              className="flex h-full flex-col rounded-lg border border-white/10 bg-slate-900/70 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-soft"
+              className="flex h-full flex-col rounded-lg border border-line bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-soft"
             >
-              <div className="h-36 overflow-hidden rounded-t-lg border-b border-white/10 bg-slate-950">
+              <div className="h-36 overflow-hidden rounded-t-lg border-b border-line bg-surface">
                 <ScreenshotPreview type={sample.preview} />
               </div>
               <div className="flex flex-1 flex-col p-6">
-                <h3 className="text-xl font-bold text-white">{sample.title}</h3>
-                <p className="mt-3 text-sm leading-6 text-slate-300">
+                <h3 className="text-xl font-bold text-ink">{sample.title}</h3>
+                <p className="mt-3 text-sm leading-6 text-muted">
                   {sample.description}
                 </p>
                 <div className="mt-auto flex pt-6">
@@ -150,7 +150,7 @@ export function WorkSamples() {
                     href={sample.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="focus-ring inline-flex w-full items-center justify-center rounded-md border border-accent/25 bg-cyan-300/10 px-3 py-2 text-sm font-semibold text-accent transition hover:border-accent hover:bg-cyan-300/15"
+                    className="focus-ring inline-flex w-full items-center justify-center rounded-md border border-accent/25 bg-surface px-3 py-2 text-sm font-semibold text-accent transition hover:border-accent hover:bg-surface"
                   >
                     Open link
                   </a>

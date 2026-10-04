@@ -21,7 +21,7 @@ const projects: Project[] = [
       "QA documentation workflow",
     ],
     githubUrl: "https://github.com/afeefahmedprof93-sy/QA_harness",
-    accent: "from-sky-500 to-violet-500",
+    accent: "from-brand to-plum",
     icon: "harness",
   },
   {
@@ -36,7 +36,7 @@ const projects: Project[] = [
       "CI/CD workflow support",
     ],
     githubUrl: "https://github.com/afeefahmedprof93-sy/playwright-ui-automation-lab",
-    accent: "from-blue-500 to-cyan-500",
+    accent: "from-brand to-plum",
     icon: "playwright",
   },
   {
@@ -51,7 +51,7 @@ const projects: Project[] = [
       "Rich HTML reporting",
     ],
     githubUrl: "https://github.com/afeefahmedprof93-sy/playwright-api-automation-framework",
-    accent: "from-teal-500 to-emerald-500",
+    accent: "from-brand to-plum",
     icon: "playwright",
   },
   {
@@ -66,7 +66,7 @@ const projects: Project[] = [
       "Clean POM structure",
     ],
     githubUrl: "https://github.com/afeefahmedprof93-sy/selenium-ui-automation-framework",
-    accent: "from-violet-500 to-blue-500",
+    accent: "from-brand to-plum",
     icon: "selenium",
   },
   {
@@ -82,7 +82,7 @@ const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/afeefahmedprof93-sy/appium-typescript-mobile-automation-framework",
-    accent: "from-fuchsia-500 to-rose-500",
+    accent: "from-brand to-plum",
     icon: "appium",
   },
   {
@@ -97,7 +97,7 @@ const projects: Project[] = [
       "Report generation",
     ],
     githubUrl: "https://github.com/afeefahmedprof93-sy/K6-blazedemo-load-testing",
-    accent: "from-orange-500 to-teal-500",
+    accent: "from-brand to-plum",
     icon: "k6",
   },
 ];
@@ -108,9 +108,9 @@ function ProjectIcon({ type }: { type: Project["icon"] }) {
       <div className="relative h-8 w-9" aria-hidden="true">
         <span className="absolute left-0 top-2 h-5 w-6 rotate-[-12deg] rounded-b-full rounded-t-md bg-emerald-400 shadow-sm" />
         <span className="absolute right-0 top-1 h-5 w-6 rotate-[12deg] rounded-b-full rounded-t-md bg-rose-400 shadow-sm" />
-        <span className="absolute left-1.5 top-3 h-1.5 w-1.5 rounded-full bg-slate-950" />
-        <span className="absolute right-2 top-2.5 h-1.5 w-1.5 rounded-full bg-slate-950" />
-        <span className="absolute left-4 top-5 h-1 w-3 rounded-full bg-slate-950/70" />
+        <span className="absolute left-1.5 top-3 h-1.5 w-1.5 rounded-full bg-surface" />
+        <span className="absolute right-2 top-2.5 h-1.5 w-1.5 rounded-full bg-surface" />
+        <span className="absolute left-4 top-5 h-1 w-3 rounded-full bg-surface" />
       </div>
     );
   }
@@ -129,7 +129,7 @@ function ProjectIcon({ type }: { type: Project["icon"] }) {
   if (type === "appium") {
     return (
       <div
-        className="flex h-9 w-9 items-center justify-center rounded-full bg-fuchsia-500 text-lg font-black text-white"
+        className="flex h-9 w-9 items-center justify-center rounded-full bg-fuchsia-500 text-lg font-black text-ink"
         aria-hidden="true"
       >
         A
@@ -140,7 +140,7 @@ function ProjectIcon({ type }: { type: Project["icon"] }) {
   if (type === "harness") {
     return (
       <div className="relative flex h-9 w-9 items-center justify-center" aria-hidden="true">
-        <span className="absolute inset-0 rounded-lg border border-sky-300/50 bg-slate-950" />
+        <span className="absolute inset-0 rounded-lg border border-sky-300/50 bg-surface" />
         <span className="absolute left-2 top-2 h-5 w-5 rounded-md border-2 border-sky-400" />
         <span className="absolute right-1.5 top-1.5 h-4 w-4 rounded-full border-2 border-violet-400" />
         <span className="relative mt-1 h-2 w-4 rotate-[-35deg] border-b-2 border-l-2 border-emerald-300" />
@@ -151,14 +151,14 @@ function ProjectIcon({ type }: { type: Project["icon"] }) {
   return (
     <div className="relative flex h-9 w-9 items-center justify-center" aria-hidden="true">
       <span className="absolute h-9 w-9 rotate-45 rounded-md bg-violet-600" />
-      <span className="relative text-sm font-black text-white">k6</span>
+      <span className="relative text-sm font-black text-ink">k6</span>
     </div>
   );
 }
 
 export function Projects() {
   return (
-    <section id="projects" className="border-b border-white/10 bg-slate-950 py-20">
+    <section id="projects" className="border-b border-line bg-white py-20">
       <div className="section-shell">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-3xl">
@@ -171,7 +171,7 @@ export function Projects() {
             href="https://github.com/afeefahmedprof93-sy?tab=repositories"
             target="_blank"
             rel="noreferrer"
-            className="focus-ring inline-flex w-fit items-center justify-center rounded-md border border-brand/40 bg-brand/10 px-4 py-2.5 text-sm font-semibold text-violet-100 shadow-sm transition hover:-translate-y-0.5 hover:border-accent hover:text-cyan-100"
+            className="focus-ring inline-flex w-fit items-center justify-center rounded-md border border-brand/40 bg-brand/10 px-4 py-2.5 text-sm font-semibold text-brand shadow-sm transition hover:-translate-y-0.5 hover:border-accent hover:text-brand"
           >
             View all repositories
           </a>
@@ -180,32 +180,32 @@ export function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="group flex flex-col overflow-hidden rounded-lg border border-white/10 bg-slate-900/70 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-brand/60 hover:shadow-lift"
+              className="group flex flex-col overflow-hidden rounded-lg border border-line bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:border-brand/60 hover:shadow-lift"
             >
               <div className={`h-2 bg-gradient-to-r ${project.accent}`} />
               <div className="flex flex-1 flex-col p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-accent/25 bg-slate-950 text-accent">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-accent/25 bg-surface text-accent">
                     <ProjectIcon type={project.icon} />
                   </div>
-                  <h3 className="text-2xl font-bold text-white">
+                  <h3 className="text-2xl font-bold text-ink">
                     {project.title}
                   </h3>
                 </div>
-                <p className="mt-3 leading-7 text-slate-300">
+                <p className="mt-3 leading-7 text-muted">
                   {project.description}
                 </p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {project.stack.map((item) => (
                     <span
                       key={item}
-                      className="rounded-md border border-accent/20 bg-cyan-300/10 px-3 py-2 text-sm font-semibold text-cyan-100"
+                      className="rounded-md border border-accent/20 bg-surface px-3 py-2 text-sm font-semibold text-brand"
                     >
                       {item}
                     </span>
                   ))}
                 </div>
-                <ul className="mt-5 grid gap-2 text-sm text-slate-300 sm:grid-cols-2">
+                <ul className="mt-5 grid gap-2 text-sm text-muted sm:grid-cols-2">
                   {project.features.map((feature) => (
                     <li key={feature} className="flex gap-2">
                       <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
@@ -218,7 +218,7 @@ export function Projects() {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="focus-ring inline-flex w-full items-center justify-center rounded-md border border-cyan-300/25 bg-gradient-to-r from-slate-800 via-slate-800 to-cyan-950 px-4 py-2.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:border-cyan-300/50 hover:from-slate-700 hover:to-cyan-900 sm:w-auto"
+                    className="focus-ring inline-flex w-full items-center justify-center rounded-md border border-brand bg-brand px-4 py-2.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:border-plum hover:bg-plum sm:w-auto"
                   >
                     View on GitHub
                   </a>

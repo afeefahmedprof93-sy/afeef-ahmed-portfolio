@@ -11,14 +11,14 @@ const navItems = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 shadow-sm backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-line bg-white/95 shadow-sm backdrop-blur-xl">
       <nav
         className="section-shell flex min-h-16 items-center justify-between gap-4"
         aria-label="Primary navigation"
       >
         <a
           href="#home"
-          className="focus-ring inline-flex items-center gap-3 text-base font-bold text-white transition hover:text-accent"
+          className="focus-ring inline-flex items-center gap-3 text-base font-bold text-ink transition hover:text-accent"
         >
           Afeef Ahmed Jarif
         </a>
@@ -27,7 +27,7 @@ export function Navbar() {
             <a
               key={item.href}
               href={item.href}
-              className="focus-ring rounded-md px-3 py-2 text-sm font-medium text-slate-300 transition hover:bg-white/10 hover:text-white"
+              className="focus-ring rounded-md px-3 py-2 text-sm font-medium text-muted transition hover:bg-surface hover:text-brand"
             >
               {item.label}
             </a>
@@ -35,7 +35,7 @@ export function Navbar() {
         </div>
         <a
           href="#contact"
-          className="focus-ring rounded-md border border-cyan-300/25 bg-gradient-to-r from-slate-800 via-slate-800 to-cyan-950 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:border-cyan-300/50 hover:from-slate-700 hover:to-cyan-900"
+          className="focus-ring rounded-md border border-brand bg-brand px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:border-plum hover:bg-plum"
         >
           Hire Me
         </a>

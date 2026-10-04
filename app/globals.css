@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
-  background: #030712;
+  color-scheme: light;
+  background: #FFFFFF;
 }
 
 * {
@@ -17,16 +17,12 @@ html {
 
 body {
   margin: 0;
-  background:
-    linear-gradient(90deg, rgba(168, 85, 247, 0.05) 1px, transparent 1px),
-    linear-gradient(rgba(34, 211, 238, 0.04) 1px, transparent 1px),
-    #030712;
-  background-size: 56px 56px;
-  color: #f8fafc;
+  background: #FFFFFF;
+  color: #475569;
 }
 
 ::selection {
-  background: #a855f7;
+  background: #2563EB;
   color: #ffffff;
 }
 
@@ -35,7 +31,7 @@ body {
 }
 
 .section-title {
-  @apply text-3xl font-bold tracking-normal text-white sm:text-4xl lg:text-5xl;
+  @apply text-3xl font-bold tracking-normal text-ink sm:text-4xl lg:text-5xl;
 }
 
 .section-kicker {
