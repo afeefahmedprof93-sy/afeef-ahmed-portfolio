@@ -5,12 +5,12 @@ const experienceItems = [
     period: "2025 - Present",
     location: "Dhaka, Bangladesh",
     highlights: [
-      "Lead manual, API, performance, and UI automation testing for an event ticketing and venue-management platform across web, backend, and release workflows.",
-      "Use AI-driven QA workflows to support requirement analysis, checklist and test-case preparation, regression planning, defect analysis, documentation improvement, and reusable automation coverage.",
-      "Design and maintain Playwright with TypeScript end-to-end suites using reusable fixtures, utilities, and scalable test architecture.",
-      "Plan and execute k6 performance tests to evaluate response time, throughput, stability, and behavior under expected and high-load conditions.",
-      "Perform REST API testing with Postman, validating backend data, business rules, integrations, and error handling.",
-      "Document clear defects with reproduction steps, expected and actual results, evidence, severity, and priority.",
+      "Perform AI-assisted testing for an email and SMS marketing platform, supporting requirement analysis, test case preparation, regression planning, and defect investigation.",
+      "Lead manual, API, UI automation, and performance testing for an event ticketing and venue-management platform, covering sprint changes, integrations, and release readiness.",
+      "Design and maintain Playwright/TypeScript end-to-end suites with Page Object Model, reusable fixtures, test data handling, and stable locator strategies.",
+      "Validate REST APIs in Postman, including authentication, request and response data, business rules, negative scenarios, and error handling.",
+      "Plan and execute k6 tests to assess response time, throughput, and stability under expected and high-load conditions; investigate performance trends and potential bottlenecks.",
+      "Clarify incomplete requirements with product and development teams, document reproducible defects with evidence, and verify fixes during regression and release testing.",
     ],
   },
   {
@@ -19,10 +19,9 @@ const experienceItems = [
     period: "2023 - 2025",
     location: "Dhaka, Bangladesh",
     highlights: [
-      "Conducted manual testing for web, desktop, and mobile applications throughout the Software Testing Life Cycle.",
-      "Developed Selenium WebDriver automation scripts using Java and TestNG to improve regression efficiency and critical workflow coverage.",
-      "Executed functional, regression, smoke, sanity, and cross-browser testing before production releases.",
-      "Maintained automation code and test assets using Git, GitHub, and Sourcetree for version control and collaboration.",
+      "Tested desk reservation, desktop POS, ticket-scanning, and event-management applications, adapting functional, exploratory, and regression coverage to web, mobile, and desktop workflows.",
+      "Developed Selenium/Java automation with TestNG for desk reservation workflows; used Sikuli for image-based testing where DOM access was unavailable.",
+      "Supported an event ticketing platform as a full-time QA resource, collaborating with developers and product teams on requirement clarification, defect resolution, and release validation.",
     ],
   },
 ];
@@ -36,10 +35,10 @@ export function Experience() {
             <p className="section-kicker">Experience</p>
             <h2 className="section-title mt-3">Hands-on QA engineering work</h2>
             <p className="mt-5 leading-7 text-muted">
-              Professional QA experience from 2023 to present across manual
-              testing, automation testing, API testing, performance testing,
-              AI-driven QA workflows, defect reporting, and release readiness
-              in Agile/Scrum teams.
+              QA experience since 2023 across marketing, ticketing,
+              reservations, and POS products. My work covers requirement
+              analysis, manual and automated testing, API validation,
+              performance testing, and release readiness in Agile/Scrum teams.
             </p>
           </div>
           <div className="space-y-5">

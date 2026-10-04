@@ -40,7 +40,7 @@ export function AIWorkflow() {
       <div className="section-shell">
         <div className="grid gap-10 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
           <div className="lg:sticky lg:top-24">
-            <p className="section-kicker">AI-Driven QA Workflow</p>
+            <p className="section-kicker">AI-Assisted QA Workflow</p>
             <h2 className="section-title mt-3">
               From product context to reusable test coverage
             </h2>
@@ -54,7 +54,7 @@ export function AIWorkflow() {
                 Core outcome
               </p>
               <p className="mt-2 font-semibold leading-6 text-ink">
-                Generate maintainable, reusable automation test coverage for
+                Build maintainable, reusable automation test coverage for
                 future regression cycles.
               </p>
             </div>

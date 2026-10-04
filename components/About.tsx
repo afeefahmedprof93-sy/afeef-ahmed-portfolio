@@ -6,14 +6,14 @@ export function About() {
           <p className="section-kicker">About</p>
           <h2 className="section-title mt-3">Quality-focused testing mindset</h2>
           <p className="mt-6 text-lg leading-8 text-muted">
-            I am a detail-oriented Software QA Engineer who cares about
-            building reliable software through structured testing, strong defect
-            reporting, and maintainable automation. I use AI-driven QA workflows
-            to support requirement analysis, checklist and test-case preparation,
-            regression planning, defect analysis, and documentation improvement.
-            I am comfortable working remotely with distributed teams and
-            supporting releases with clear communication and evidence-based
-            quality checks.
+            My work spans email and SMS marketing, event ticketing,
+            reservations, and POS applications across web, mobile, and desktop.
+            I build testing coverage around product requirements and user flows,
+            combining exploratory and regression testing with API validation
+            and maintainable automation. I work with product and development
+            teams to clarify incomplete requirements, investigate defects,
+            and validate fixes before release. Clear test plans and reproducible
+            evidence guide my approach to quality.
           </p>
         </div>
       </div>

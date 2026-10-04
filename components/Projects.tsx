@@ -12,8 +12,8 @@ const projects: Project[] = [
   {
     title: "QA Harness",
     description:
-      "An AI-driven QA workflow project focused on requirement analysis, structured test planning, defect investigation, and reusable automation coverage.",
-    stack: ["AI-Driven QA", "Test Strategy", "Reusable Coverage", "Documentation"],
+      "An AI-assisted QA workflow project focused on requirement analysis, structured test planning, defect investigation, and reusable automation coverage.",
+    stack: ["AI-Assisted QA", "Test Strategy", "Reusable Coverage", "Documentation"],
     features: [
       "Product flow analysis",
       "Reusable test coverage planning",

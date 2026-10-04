@@ -8,6 +8,11 @@ const skillGroups: SkillGroup[] = [
     title: "Testing",
     items: [
       "Manual Testing",
+      "Requirement Analysis",
+      "Risk-Based Test Planning",
+      "Integration Testing",
+      "Cross-Browser Testing",
+      "Release Validation",
       "Functional Testing",
       "Regression Testing",
       "Smoke Testing",
@@ -25,8 +30,10 @@ const skillGroups: SkillGroup[] = [
       "Selenium",
       "Java",
       "TestNG",
+      "Sikuli",
       "Page Object Model",
       "Fixtures",
+      "Test Data Management",
       "Parallel Execution",
       "Retry Handling",
     ],
@@ -46,18 +53,23 @@ const skillGroups: SkillGroup[] = [
     items: ["k6", "GitHub Actions", "CI/CD", "HTML Reports", "Allure Reports"],
   },
   {
+    title: "AI-Assisted QA",
+    items: ["Codex", "Claude Code", "Cursor", "AI-Assisted Test Planning", "AI-Assisted Defect Analysis", "AI-Assisted Automation"],
+  },
+  {
     title: "Tools",
     items: [
       "Git",
       "GitHub",
       "SourceTree",
       "Jira",
+      "Asana",
+      "Agile/Scrum",
       "VS Code",
       "IntelliJ IDEA",
       "Chrome DevTools",
       "MCP",
-      "Codex",
-      "Claude Code",
+
     ],
   },
 ];
